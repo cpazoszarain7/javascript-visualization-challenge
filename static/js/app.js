@@ -84,7 +84,7 @@ function plotBarChart(index){
 }
 
 function plotBubbleChart(index){
-
+    //Plot Bubble Chart
     var trace1 = {
         x: samples[index].otu_ids,
         y: samples[index].sample_values,
@@ -187,7 +187,7 @@ Plotly.newPlot('gauge', data, layout, {showSendToCloud:true});
 
 function fillTableData(index){
 
-    
+    //populate Table with details    
     let tbody = d3.select('tbody');
     tbody.html("")
 
